@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/09c4b5afe2.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/eduford_img/background.jpg">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/eduford_img/logo.png" alt=""></a>
+        
+            <div class="nav-links" id="navlinks">
+                
+                <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+
+                </ul>
+                
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Education is the powerful Weapon to change the world</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+    
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showMenu() {
+            navlinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non id totam aut natus provident laborum velit, molestiae laboriosam repudiandae. Impedit quas, nobis excepturi reiciendis aut consectetur animi accusamus quia sed.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, eveniet libero? Veniam corporis modi facere, magnam omnis saepe, repellendus nemo asperiores, sed illo accusamus distinctio excepturi aperiam? Inventore, tenetur libero?</p>
+            </div>
+            <div class="course-col">
+                <h3>Graduation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, eveniet libero? Veniam corporis modi facere, magnam omnis saepe, repellendus nemo asperiores, sed illo accusamus distinctio excepturi aperiam? Inventore, tenetur libero?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, eveniet libero? Veniam corporis modi facere, magnam omnis saepe, repellendus nemo asperiores, sed illo accusamus distinctio excepturi aperiam? Inventore, tenetur libero?</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, enim.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="/eduford_img/london.png" alt="" height="450">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/eduford_img/newyork.png" alt="" height="450">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="/eduford_img/washington.png" alt="" height="450">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, doloribus.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/eduford_img/library.png" alt="" height="450">
+                <h3>Library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, error!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/eduford_img/basketball.png" alt="" height="450">
+                <h3>Basket Ball</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, error!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/eduford_img/cafeteria.png" alt="" height="450">
+                <h3>Cafeteria</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, error!</p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h1>What Our Student Says</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem praesentium in quia blanditiis quibusdam, labore quis doloribus tenetur enim eligendi.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="/eduford_img/user1.jpg" alt="">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint soluta iste exercitationem quia non necessitatibus officiis, earum fugiat! Dignissimos explicabo magni ut quia tenetur nisi accusamus nesciunt repudiandae officia.
+                    </p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="/eduford_img/user2.jpg" alt="">
+                <div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sint soluta iste exercitationem quia non necessitatibus officiis, earum fugiat! Dignissimos explicabo magni ut quia tenetur nisi accusamus nesciunt repudiandae officia.
+                    </p>
+                    <h3>Albert John</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses <br> AnyWhere World</h1>
+        <a href="" class="hero-btn">Contact Us</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga facere recusandae molestiae consequuntur quas nobis <br> consectetur perspiciatis sint, esse iure veniam beatae excepturi tempora unde, porro voluptatem ut sed? Pariatur?</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </section>
+</body>
+</html>
